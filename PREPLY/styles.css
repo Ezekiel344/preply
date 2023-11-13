@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 20px;
+    padding: 10px;
+    background-image:url('img/img_mouseover3.jpg');
+    background-position:cover;
+    background-size: cover;
+
+}
+/* Styles for mobile devices */
+@media (max-width: 640px) {
+    /* CSS rules for smaller screens */
+}
+
+/* Styles for tablets and laptops */
+@media (min-width: 641px) and (max-width: 1200px) {
+    /* CSS rules for medium-sized screens */
+}
+
+/* Styles for desktops and larger screens */
+@media (min-width: 1201px) {
+    /* CSS rules for larger screens */
+}
+
+
+/* Set background image for the header */
+.header-image {
+    background-image: url('img/WeblordWebsiteProject1.png');
+    background-size:cover;
+    background-position: center;
+    height: 250px; /* Adjust the height as needed */
+}
+
+/* Style the header content */
+.header-content {
+    text-align: center;
+    padding: 100px;
+    color: #0c0000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Add more CSS styles for the rest of your website */
+
+/* Styles for the image */
+img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is centered horizontally */
+    margin: 0 auto; /* Centers the image vertically */
+  }
+  
+/* Styles for the content section */
+h1{
+    text-align:center;
+}
